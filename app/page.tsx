@@ -4,14 +4,15 @@ import Countdown from "@/components/Countdown";
 const ROADMAP = [
   {
     date: "2 March 2026",
-    phase: "Alpha",
+    phase: "ALPHA",
     description:
-      "Launch with cold wallets, paid compute enabled, allowlist access using COMPY tokens. Unlimited usage for allowlisted addresses.",
+      "Limited access. $COMPY distributed. OrchestratiON begins for allowlisted nodes.",
   },
   {
     date: "16 March 2026",
-    phase: "Beta",
-    description: "Open for everyone. System available publicly.",
+    phase: "BETA",
+    description:
+      "Network fully ON. Open access. Public orchestratiON. Global availability.",
   },
 ];
 
@@ -30,18 +31,30 @@ export default function Home() {
             />
           </div>
           <div className="hero-copy">
-            <h1>Countdown to launch</h1>
+            <h1>OrchestratiON initializing in</h1>
             <p className="subtitle">
-              The network is preparing for public release. Track the launch
-              clock and upcoming milestones below.
+              Our P2P compute network is preparing for public release. Track the
+              launch clock and upcoming milestones below. Designed for ease of
+              use, with pay-per-use orchestration and no fixed commitments.
+              First phase: network access for allowlisted nodes.
             </p>
           </div>
           <Countdown targetDate="2026-03-02T00:00:00Z" />
         </header>
 
         <section className="roadmap" aria-label="Launch roadmap">
+          <div className="roadmap-toggle">
+            <div className="toggle-labels">
+              <span className="toggle-label toggle-label-on">ON</span>
+              <div className="toggle-switch" aria-hidden="true">
+                <span className="toggle-knob" />
+              </div>
+              <span className="toggle-label toggle-label-off">OFF</span>
+            </div>
+            <p className="toggle-caption">Automation is currently OFF.</p>
+          </div>
           <div className="section-heading">
-            <h2>Roadmap</h2>
+            <h2>Roadmap to pure automatiON</h2>
             <p>Follow the rollout from allowlist access to open availability.</p>
           </div>
           <div className="roadmap-grid">
@@ -55,8 +68,38 @@ export default function Home() {
               </article>
             ))}
           </div>
+          <div className="roadmap-cta">
+            <p className="roadmap-cta-title">Ocean Orchestrator</p>
+            <a
+              className="cta-button"
+              href="https://open-vsx.org/extension/OceanProtocol/ocean-protocol-vscode-extension"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ready to build before ON?
+            </a>
+          </div>
+          <div className="x-section">
+            <a
+              className="x-link"
+              href="https://x.com/ONcompute"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Follow ONcompute on X"
+            >
+              <span className="x-logo" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26L23 21.75h-6.93l-5.437-6.582L4.826 21.75H1.514l7.73-8.835L1 2.25h7.102l4.91 5.933L18.244 2.25zm-1.161 17.52h1.833L7.124 4.126H5.157L17.083 19.77z" />
+                </svg>
+              </span>
+              <span>Follow on X</span>
+            </a>
+          </div>
         </section>
       </main>
+      <footer className="footer">
+        <p>© 2026 ONcompute. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
