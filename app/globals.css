@@ -93,7 +93,7 @@ a {
 .subtitle {
   color: var(--foreground);
   font-size: clamp(1rem, 2vw, 1.25rem);
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -155,33 +155,33 @@ a {
 }
 
 .toggle-label-on {
-  color: var(--secondary);
-  font-weight: 600;
-}
-
-.toggle-label-off {
   color: var(--foreground);
   font-weight: 600;
 }
 
+.toggle-label-off {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
 .toggle-switch {
-  width: 84px;
-  height: 48px;
+  width: 126px;
+  height: 72px;
   border-radius: 999px;
-  border: 1px solid rgba(213, 67, 53, 0.4);
+  border: 1px solid rgba(183, 253, 121, 0.4);
   background: rgba(255, 255, 255, 0.08);
   position: relative;
 }
 
 .toggle-knob {
   position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 36px;
-  height: 36px;
+  top: 9px;
+  left: 9px;
+  width: 54px;
+  height: 54px;
   border-radius: 50%;
-  background: var(--primary-light);
-  box-shadow: 0 0 12px rgba(213, 67, 53, 0.45);
+  background: var(--secondary);
+  box-shadow: 0 0 12px rgba(183, 253, 121, 0.45);
 }
 
 .toggle-caption {
@@ -262,7 +262,7 @@ a {
 .roadmap-cta-title {
   font-size: 0.95rem;
   letter-spacing: 0.22em;
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--muted);
 }
 
@@ -330,10 +330,11 @@ a {
   padding: 0 clamp(20px, 5vw, 80px) clamp(32px, 5vw, 72px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
   color: var(--muted);
   font-size: 0.9rem;
+  text-align: center;
 }
 
 

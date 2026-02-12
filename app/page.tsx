@@ -32,14 +32,16 @@ export default function Home() {
           </div>
           <div className="hero-copy">
             <h1>OrchestratiON initializing in</h1>
+            <Countdown targetDate="2026-03-02T00:00:00Z" />
             <p className="subtitle">
               Our P2P compute network is preparing for public release. Track the
               launch clock and upcoming milestones below. Designed for ease of
               use, with pay-per-use orchestration and no fixed commitments.
+            </p>
+            <p className="subtitle">
               First phase: network access for allowlisted nodes.
             </p>
           </div>
-          <Countdown targetDate="2026-03-02T00:00:00Z" />
         </header>
 
         <section className="roadmap" aria-label="Launch roadmap">
@@ -69,14 +71,14 @@ export default function Home() {
             ))}
           </div>
           <div className="roadmap-cta">
-            <p className="roadmap-cta-title">Ocean Orchestrator</p>
+            <p className="roadmap-cta-title">Ready to build before ON</p>
             <a
               className="cta-button"
               href="https://open-vsx.org/extension/OceanProtocol/ocean-protocol-vscode-extension"
               target="_blank"
               rel="noreferrer"
             >
-              Ready to build before ON?
+              Ocean Orchestrator
             </a>
           </div>
           <div className="x-section">
