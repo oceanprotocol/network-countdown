@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Countdown from "@/components/Countdown";
+import AmbientSound from "@/components/AmbientSound";
 
 const ROADMAP = [
   {
@@ -19,6 +20,7 @@ const ROADMAP = [
 export default function Home() {
   return (
     <div className="page">
+      <AmbientSound />
       <main className="main">
         <header className="hero">
           <div className="logo-row">
