@@ -15,6 +15,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Network Countdown",
   description: "The Ocean Network is powering ON. Countdown to launch and key milestones.",
+  openGraph: {
+    title: "Network Countdown",
+    description: "The Ocean Network is powering ON. Countdown to launch and key milestones.",
+    images: ["/logo.svg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Network Countdown",
+    description: "The Ocean Network is powering ON. Countdown to launch and key milestones.",
+    images: ["/logo.svg"],
+  },
 };
 
 export default function RootLayout({
