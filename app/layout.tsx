@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Network Countdown",
     description: "The Ocean Network is powering ON. Countdown to launch and key milestones.",
-    images: ["/logo.svg"],
+    images: ["/Ocean Network Logo - Black.svg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Network Countdown",
     description: "The Ocean Network is powering ON. Countdown to launch and key milestones.",
-    images: ["/logo.svg"],
+    images: ["/Ocean Network Logo - Black.svg"],
   },
 };
 
