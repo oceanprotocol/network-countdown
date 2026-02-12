@@ -46,12 +46,12 @@ export default function Home() {
 
         <section className="roadmap" aria-label="Launch roadmap">
           <div className="roadmap-toggle">
-            <div className="toggle-labels">
-              <span className="toggle-label toggle-label-on">ON</span>
+            <div className="toggle-switch-container">
+              <span className="toggle-label toggle-label-off">OFF</span>
               <div className="toggle-switch" aria-hidden="true">
                 <span className="toggle-knob" />
               </div>
-              <span className="toggle-label toggle-label-off">OFF</span>
+              <span className="toggle-label toggle-label-on">ON</span>
             </div>
             <p className="toggle-caption">Automation is currently OFF.</p>
           </div>
