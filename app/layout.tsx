@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Network Countdown",
-  description: "Launch teaser with countdown and roadmap.",
+  description: "The Ocean Network is powering ON. Countdown to launch and key milestones.",
 };
 
 export default function RootLayout({
