@@ -53,7 +53,6 @@ export default function Home() {
               </div>
               <span className="toggle-label toggle-label-on">ON</span>
             </div>
-            <p className="toggle-caption">Automation is currently OFF.</p>
           </div>
           <div className="section-heading">
             <h2>Roadmap to pure automatiON</h2>
