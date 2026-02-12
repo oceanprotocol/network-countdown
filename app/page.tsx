@@ -30,7 +30,7 @@ export default function Home() {
             />
           </div>
           <div className="hero-copy">
-            <h1>Countdown to mainnet</h1>
+            <h1>Countdown to launch</h1>
             <p className="subtitle">
               The network is preparing for public release. Track the launch
               clock and upcoming milestones below.
