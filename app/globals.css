@@ -26,11 +26,10 @@ body {
 body {
   color: var(--foreground);
   background-color: var(--background);
-  background-image: url("/pattern.svg"), url("/pattern2.svg"),
-    url("/pattern3.svg");
-  background-repeat: repeat, repeat, no-repeat;
-  background-size: 260px, 360px, 800px;
-  background-position: left top, right top, center bottom;
+  background-image: url("/pattern.svg"), url("/pattern2.svg");
+  background-repeat: repeat, repeat;
+  background-size: 260px, 360px;
+  background-position: left top, right top;
   font-family: var(--font-inter), Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -118,7 +117,7 @@ a {
 .countdown-value {
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 600;
-  color: var(--primary-light-2);
+  color: var(--secondary);
 }
 
 .countdown-label {

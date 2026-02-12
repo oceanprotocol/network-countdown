@@ -24,8 +24,8 @@ export default function Home() {
             <Image
               src="/logo.svg"
               alt="Network Countdown logo"
-              width={360}
-              height={96}
+              width={720}
+              height={192}
               priority
             />
           </div>
