@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Countdown from "@/components/Countdown";
 
 const ROADMAP = [
@@ -100,6 +101,10 @@ export default function Home() {
       </main>
       <footer className="footer">
         <p>© 2026 ONcompute. All rights reserved.</p>
+        <nav className="footer-links" aria-label="Legal">
+          <Link href="/privacy">Privacy Policy</Link>
+          <Link href="/cookies">Cookie Policy</Link>
+        </nav>
       </footer>
     </div>
   );
