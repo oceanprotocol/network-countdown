@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Countdown from "@/components/Countdown";
+import TrackedLink from "@/components/TrackedLink";
 
 const ROADMAP = [
   {
@@ -72,22 +73,26 @@ export default function Home() {
           </div>
           <div className="roadmap-cta">
             <p className="roadmap-cta-title">Ready to build before ON</p>
-            <a
+            <TrackedLink
               className="cta-button"
               href="https://open-vsx.org/extension/OceanProtocol/ocean-protocol-vscode-extension"
               target="_blank"
               rel="noreferrer"
+              eventName="click_ocean_orchestrator"
+              eventLabel="Ocean Orchestrator"
             >
               Ocean Orchestrator
-            </a>
+            </TrackedLink>
           </div>
           <div className="x-section">
-            <a
+            <TrackedLink
               className="x-link"
               href="https://x.com/ONcompute"
               target="_blank"
               rel="noreferrer"
               aria-label="Follow ONcompute on X"
+              eventName="click_follow_on_x"
+              eventLabel="Follow on X"
             >
               <span className="x-logo" aria-hidden="true">
                 <svg viewBox="0 0 24 24" role="img">
@@ -95,7 +100,7 @@ export default function Home() {
                 </svg>
               </span>
               <span>Follow on X</span>
-            </a>
+            </TrackedLink>
           </div>
         </section>
       </main>

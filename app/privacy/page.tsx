@@ -23,8 +23,11 @@ export default function PrivacyPolicyPage() {
 
       <h2>Data controller</h2>
       <p>
-        Replace this section with your full legal entity name, registered
-        address, and contact email for privacy inquiries.
+        For any requests you can contact us as follows:
+        <br />
+        <br />
+        Ocean Protocol Foundation Ltd. 1 Irving Place 08-11 (The Commerze @
+        Irving) Singapore, 369546 Singapore
       </p>
 
       <h2>What data we collect</h2>
@@ -59,12 +62,6 @@ export default function PrivacyPolicyPage() {
         Analytics (Google Ireland Limited / Google LLC).
       </p>
 
-      <h2>Data retention</h2>
-      <p>
-        Replace this section with your selected retention periods from Google
-        Analytics and any server logs.
-      </p>
-
       <h2>Your rights</h2>
       <p>
         Depending on your location, you may have rights to access, correct,
@@ -73,8 +70,7 @@ export default function PrivacyPolicyPage() {
 
       <h2>Contact</h2>
       <p>
-        Add a dedicated contact email for privacy requests and, if required, EU
-        representative or DPO details.
+        gdpr@oceanprotocol.com
       </p>
 
       <p>
