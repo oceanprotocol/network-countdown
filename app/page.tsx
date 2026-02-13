@@ -8,7 +8,7 @@ const ROADMAP = [
     date: "2 March 2026",
     phase: "ALPHA",
     description:
-      "Limited access. $COMPY distributed. OrchestratiON begins for allowlisted nodes.",
+      "Limited access. Grant tokens distributed. OrchestratiON begins for allowlisted nodes.",
   },
   {
     date: "16 March 2026",
